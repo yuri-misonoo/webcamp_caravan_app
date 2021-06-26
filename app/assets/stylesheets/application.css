@@ -172,6 +172,10 @@ main{
 /*blogs*/
 
 /*sidebar*/
+.sidebar{
+  width: 230px;
+}
+
 .common-heading{
   border-bottom: 8px solid #f7f7f7;
   text-align: center;
@@ -194,6 +198,11 @@ main{
   margin: 0;
   padding: 0;
   border: none;
+}
+
+.instagram .sidebar-contents{
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .instagram-box{
